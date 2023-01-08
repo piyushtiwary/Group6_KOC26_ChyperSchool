@@ -1,7 +1,7 @@
 i = input("Enter a sentence")
 
 count = 1
-li = list(b.split(" "))
+li = list(i.split(" "))
 
 j  = 0
 
@@ -10,7 +10,7 @@ while(j<len(i)):
 		count+=1
 	j += 1	
 
-realCount = (count+1)
+realCount = (count)
 main = " "
 for v in range(realCount):
 	main = main+li[v][0]
