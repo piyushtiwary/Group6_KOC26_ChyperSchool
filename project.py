@@ -1,14 +1,12 @@
 i = input("Enter a sentence")
 
-b =i
-b=b.strip()
-count = 0
+count = 1
 li = list(b.split(" "))
 
 j  = 0
 
-while(j<len(b)):
-	if(b[j] == " "):  
+while(j<len(i)):
+	if(i[j] == " "):  
 		count+=1
 	j += 1	
 
